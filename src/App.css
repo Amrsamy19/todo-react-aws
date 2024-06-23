@@ -1,0 +1,24 @@
+#root {
+	background: #fdfffc;
+	width: 100%;
+	height: 100vh;
+	align-content: center;
+}
+
+.dark-theme #root {
+	background: #07090f;
+	color: #fff;
+}
+
+.todo-input{
+	width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+	#root {
+		background: #fdfffc;
+	}
+	.dark-theme #root {
+		background: #07090f;
+	}
+}
